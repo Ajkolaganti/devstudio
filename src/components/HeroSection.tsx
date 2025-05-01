@@ -43,9 +43,9 @@ const HeroSection: React.FC = () => {
 
             <div className="flex items-center gap-6 pt-4">
               <div className="flex -space-x-2">
-                <img className="w-10 h-10 rounded-full border-2 border-slate-900" src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Client" />
-                <img className="w-10 h-10 rounded-full border-2 border-slate-900" src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Client" />
-                <img className="w-10 h-10 rounded-full border-2 border-slate-900" src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Client" />
+                <img className="w-10 h-10 rounded-full border-2 border-slate-900" src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Marcus Johnson, HealthTrack Systems" title="Marcus Johnson" />
+                <img className="w-10 h-10 rounded-full border-2 border-slate-900" src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sophia Thompson, Urban Bloom Boutique" title="Sophia Thompson" />
+                <img className="w-10 h-10 rounded-full border-2 border-slate-900" src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Jennifer Martinez, Coastal Eats Café" title="Jennifer Martinez" />
               </div>
               <div className="text-sm text-gray-300">
                 <p>Trusted by <span className="text-teal-400 font-medium">50+</span> happy clients</p>

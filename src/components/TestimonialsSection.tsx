@@ -14,36 +14,36 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    position: "CEO",
-    company: "FreshBite Restaurant",
+    name: "Jennifer Martinez",
+    position: "Owner",
+    company: "Coastal Eats Café",
     avatar: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     content: "Working with this developer was an absolute pleasure. They brought our vision to life with a beautiful, functional website that's easy to manage. Our online orders have increased by 40% since launch!",
     rating: 5
   },
   {
     id: 2,
-    name: "Michael Chen",
-    position: "Marketing Director",
-    company: "TechGrowth Solutions",
+    name: "Robert Patel",
+    position: "Digital Marketing Manager",
+    company: "NexGen Solutions",
     avatar: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     content: "The website redesign exceeded our expectations. Clean code, stunning design, and excellent communication throughout the project. Our conversion rate has improved significantly thanks to the new UX improvements.",
     rating: 5
   },
   {
     id: 3,
-    name: "Emma Rodriguez",
-    position: "Owner",
-    company: "Bloom Boutique",
+    name: "Sophia Thompson",
+    position: "Founder",
+    company: "Urban Bloom Boutique",
     avatar: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     content: "As a small business owner, I needed a website that would help me compete with larger companies. The responsive design and e-commerce features have transformed my business, allowing me to reach customers worldwide.",
     rating: 5
   },
   {
     id: 4,
-    name: "David Wilson",
-    position: "Product Manager",
-    company: "FitTrack App",
+    name: "Marcus Johnson",
+    position: "CTO",
+    company: "HealthTrack Systems",
     avatar: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     content: "The web application developed for our fitness tracking service is robust, user-friendly, and scales beautifully. The attention to detail and technical expertise made all the difference in our product launch.",
     rating: 4
@@ -61,7 +61,7 @@ const TestimonialsSection: React.FC = () => {
 
   const prevTestimonial = () => {
     setCurrentIndex((prevIndex) => 
-      prevIndex === 0 ? testimonials.length - a : prevIndex - 1
+      prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1
     );
   };
 
